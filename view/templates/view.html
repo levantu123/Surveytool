@@ -1,0 +1,8 @@
+﻿
+<span data-bind="text: name"></span>
+<span data-bind="text: id"></span>
+<div data-bind="sortable: questions" class="question-block">
+    <div>
+        <div class="question-content" data-bind="template: { name: qtype, templateUrl: 'templates/tmp_questions'}"></div>
+    </div>
+</div>

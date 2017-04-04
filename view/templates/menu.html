@@ -1,0 +1,6 @@
+﻿<div data-bind="foreach: menu_btns_list" class="question-block">
+    <div data-bind="draggable: { data: newTask, isEnabled: allowNewTask }">
+        <div class="question-content" data-bind="template: { name: type, templateUrl: 'templates/tmp_btns'}"></div>
+
+    </div>
+</div>

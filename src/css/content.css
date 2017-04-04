@@ -1,0 +1,27 @@
+.survey-area{
+    width: 60%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 20px 20px 20px 20px;
+}
+.question-block {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+.question-content {
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+.question-mask{
+    display: block;
+}
+.q-choice{
+    display:block;
+    margin-left: 10px;
+}
+.q-btns{
+    float: right;
+}

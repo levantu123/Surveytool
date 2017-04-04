@@ -1,0 +1,27 @@
+﻿body {
+}
+.tu-btn {
+    width: 100%;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  background: #e67f10;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.tu-btn:hover {
+  background: #fc533c;
+  text-decoration: none;
+}
+#survey-menu{
+    width: 25%;
+    float: right;
+}
+
+.option-element{
+    margin-left:20px;
+}

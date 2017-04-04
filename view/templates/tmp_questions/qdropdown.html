@@ -1,0 +1,12 @@
+<div class="question-mask">
+    <span>Question </span><span data-bind="text: $index"></span>
+    <div class="q-btns">
+        <input type="button" value="Edit" />
+        <input type="button" value=">>>" />
+    </div>
+</div>
+<div class="q-title"><h2><span data-bind="text: title"></span></h2></div>
+
+<select data-bind="foreach: choices" class="q-choices">
+        <option data-bind="text: choice_value"></option>
+</select>
